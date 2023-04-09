@@ -46,6 +46,7 @@ export const App = () => {
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
+            <input type="checkbox" />
             <span>{todo.text}</span>
             <button
               type="submit"
